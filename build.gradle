@@ -1,0 +1,16 @@
+apply plugin: "java"
+apply plugin: "groovy"
+apply plugin: "application"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "io.vertx:vertx-core:3.4.2"
+    compile "io.vertx:vertx-lang-groovy:3.4.2"
+    compile "io.vertx:vertx-lang-js:3.4.2"
+    compile 'io.vertx:vertx-web:3.4.2'
+    compile 'io.vertx:vertx-web-client:3.4.2'
+    compile 'org.codehaus.groovy:groovy-all:2.4.12'
+}
